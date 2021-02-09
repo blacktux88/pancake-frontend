@@ -1,4 +1,4 @@
-import { MenuEntry } from '@pancakeswap-libs/uikit'
+import { MenuEntry } from '@weedfarm-libs/uikit'
 
 const config: MenuEntry[] = [
   {
@@ -12,11 +12,11 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: 'https://exchange.pancakeswap.finance',
+        href: 'https://exchange.weedfarm.finance',
       },
       {
         label: 'Liquidity',
-        href: 'https://exchange.pancakeswap.finance/#/pool',
+        href: 'https://exchange.weedfarm.finance/#/pool',
       },
     ],
   },
@@ -61,19 +61,19 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Overview',
-        href: 'https://pancakeswap.info',
+        href: 'https://weedfarm.info',
       },
       {
         label: 'Tokens',
-        href: 'https://pancakeswap.info/tokens',
+        href: 'https://weedfarm.info/tokens',
       },
       {
         label: 'Pairs',
-        href: 'https://pancakeswap.info/pairs',
+        href: 'https://weedfarm.info/pairs',
       },
       {
         label: 'Accounts',
-        href: 'https://pancakeswap.info/accounts',
+        href: 'https://weedfarm.info/accounts',
       },
     ],
   },
@@ -88,19 +88,19 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Voting',
-        href: 'https://voting.pancakeswap.finance',
+        href: 'https://voting.weedfarm.finance',
       },
       {
         label: 'Github',
-        href: 'https://github.com/pancakeswap',
+        href: 'https://github.com/weedfarm',
       },
       {
         label: 'Docs',
-        href: 'https://docs.pancakeswap.finance',
+        href: 'https://docs.weedfarm.finance',
       },
       {
         label: 'Blog',
-        href: 'https://pancakeswap.medium.com',
+        href: 'https://weedfarm.medium.com',
       },
     ],
   },

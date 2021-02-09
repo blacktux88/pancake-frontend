@@ -1842,9 +1842,9 @@
     mkdirp "^1.0.4"
     rimraf "^3.0.2"
 
-"@pancakeswap-libs/eslint-config-pancake@1.0.0":
+"@weedfarm-libs/eslint-config-pancake@1.0.0":
   version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@pancakeswap-libs/eslint-config-pancake/-/eslint-config-pancake-1.0.0.tgz#da5c17842d1cb0d575bca3de0c9404386c386151"
+  resolved "https://registry.yarnpkg.com/@weedfarm-libs/eslint-config-pancake/-/eslint-config-pancake-1.0.0.tgz#da5c17842d1cb0d575bca3de0c9404386c386151"
   integrity sha512-/rE1jQsgDV+jUvYIJKzIlLGFSYwku8K67nprRMmsbhdG+FHdBJnclIyIbVY1NnVtuwGaP+uBQiS/tn6Zhiyx8w==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^4.7.0"
@@ -1856,9 +1856,9 @@
     eslint-plugin-react "^7.21.5"
     eslint-plugin-react-hooks "^4.0.0"
 
-"@pancakeswap-libs/uikit@^0.10.2":
+"@weedfarm-libs/uikit@^0.10.2":
   version "0.10.2"
-  resolved "https://registry.yarnpkg.com/@pancakeswap-libs/uikit/-/uikit-0.10.2.tgz#55f7a653d42e9f4f5112ff5717a5d1dfc658a2da"
+  resolved "https://registry.yarnpkg.com/@weedfarm-libs/uikit/-/uikit-0.10.2.tgz#55f7a653d42e9f4f5112ff5717a5d1dfc658a2da"
   integrity sha512-fu0dSOFjnq9WZQ0stLKFlkSFG2Wvg1WktpqQOTVlg80hSAN4VWJuPB8ZTJjvEIogJnxMLPQCcq9163DXS0tGhw==
   dependencies:
     "@types/lodash" "^4.14.162"

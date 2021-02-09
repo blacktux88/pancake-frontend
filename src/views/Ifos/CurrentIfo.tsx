@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Text, Heading, BaseLayout, Button, LinkExternal, Flex, Image } from '@pancakeswap-libs/uikit'
+import { Text, Heading, BaseLayout, Button, LinkExternal, Flex, Image } from '@weedfarm-libs/uikit'
 import { ifosConfig } from 'config/constants'
 import useI18n from 'hooks/useI18n'
 import IfoCard from './components/IfoCard'
@@ -52,10 +52,10 @@ const Ifo = () => {
             <li>{TranslateString(598, 'Get CAKE-BNB LP tokens by adding CAKE and BNB liquidity')}</li>
           </List>
           <Flex mb="16px">
-            <LinkExternal href="https://exchange.pancakeswap.finance/#/swap" mr="16px">
+            <LinkExternal href="https://exchange.weedfarm.finance/#/swap" mr="16px">
               {TranslateString(999, 'Buy CAKE')}
             </LinkExternal>
-            <LinkExternal href="https://exchange.pancakeswap.finance/#/add/ETH/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82">
+            <LinkExternal href="https://exchange.weedfarm.finance/#/add/ETH/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82">
               {TranslateString(999, 'Get LP tokens')}
             </LinkExternal>
           </Flex>
@@ -72,7 +72,7 @@ const Ifo = () => {
             <Button
               as="a"
               variant="secondary"
-              href="https://docs.pancakeswap.finance/core-products/ifo-initial-farm-offering"
+              href="https://docs.weedfarm.finance/core-products/ifo-initial-farm-offering"
             >
               {TranslateString(610, 'Read more')}
             </Button>
@@ -85,7 +85,7 @@ const Ifo = () => {
             <Text mb={3}>
               {TranslateString(
                 514,
-                'Launch your project with PancakeSwap, Binance Smart Chain’s most-used AMM project and liquidity provider, to bring your token directly to the most active and rapidly growing community on BSC.',
+                'Launch your project with weedfarm, Binance Smart Chain’s most-used AMM project and liquidity provider, to bring your token directly to the most active and rapidly growing community on BSC.',
               )}
             </Text>
             <Button

@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Heading, Text, BaseLayout } from '@pancakeswap-libs/uikit'
+import { Heading, Text, BaseLayout } from '@weedfarm-libs/uikit'
 import useI18n from 'hooks/useI18n'
 import Page from 'components/layout/Page'
 import FarmStakingCard from 'views/Home/components/FarmStakingCard'
@@ -83,7 +83,7 @@ const Home: React.FC = () => {
     <Page>
       <Hero>
         <Heading as="h1" size="xl" mb="24px" color="secondary">
-          {TranslateString(576, 'PancakeSwap')}
+          {TranslateString(576, 'weedfarm')}
         </Heading>
         <Text>{TranslateString(578, 'The #1 AMM and yield farm on Binance Smart Chain.')}</Text>
       </Hero>
